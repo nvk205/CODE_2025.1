@@ -1,0 +1,1 @@
+print("Khanh dep trai")
