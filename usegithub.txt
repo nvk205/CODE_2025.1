@@ -5,7 +5,9 @@ Git & GitHub
 - Commit: thay đổi source
 - Branch: Nhánh
 
-$ git remote add origin <link>
+$ git remote add <name> <link>
+
+git remote -v //check
 
 $ git init
 
