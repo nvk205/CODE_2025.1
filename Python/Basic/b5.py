@@ -4,5 +4,5 @@ if 50 <= a and a <= 100 and a % 3 == 0:
     print("True")
 else:
     print("False")
-
+# or
 print(50 <= a <= 100 and a % 3 == 0)  # clean
