@@ -2,12 +2,14 @@
 import math
 
 n = int(input("Nhap so n: "))
-m = round(math.sqrt(n))  # lam tron so
-count = 0
-for i in range(1, m):
+m = round(math.sqrt(n)) + 1  # lam tron so
+prime = True
+for i in range(2, m):
     if n % i == 0:
-        count = count + 1
-if n == 1:
+        prime = False
+if n < 2:
+    prime = False
+if prime:
     print("La so nguyen to")
 else:
     print("Khong phai so nguyen to")
