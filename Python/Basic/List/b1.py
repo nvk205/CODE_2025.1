@@ -30,4 +30,4 @@ print(danh_sach_so)
 danh_sach_so.reverse()  # dao nguoc thu tu
 print(danh_sach_so)
 print(danh_sach_so.count(0))  # dem so luong 0
-print(danh_sach_so.index(3))  # in index 3
+print(danh_sach_so.index(3))  # in index cua 3 la 2
